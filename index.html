@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href='style.css' type="text/css">
+  <title>Calculator Project</title>
+</head>
+<body onload="">
+	<div id="calculator">
+		<div class="topRow">
+			<span class="clear" onclick="getValue('C')">C</span>
+			<div class="view"></div>
+		</div>
+		<div class="numbers">
+			<span onclick="getValue(7)">7</span>
+			<span onclick="getValue(8)">8</span>
+			<span onclick="getValue(9)">9</span>
+			<span onclick="getValue(4)">4</span>
+			<span onclick="getValue(5)">5</span>
+			<span onclick="getValue(6)">6</span>
+			<span onclick="getValue(1)">1</span>
+			<span onclick="getValue(2)">2</span>
+			<span onclick="getValue(3)">3</span>
+			<span onclick="getValue(0)">0</span>
+			<span onclick="getValue('.')">.</span>
+			<span onclick="getValue('=')">=</span>
+		</div>
+		<div class="operators">
+			<span onclick="getValue('+')">+</span>
+			<span onclick="getValue('-')">-</span>
+			<span onclick="getValue('*')">*</span>
+			<span onclick="getValue('/')">/</span>
+		</div>
+	</div>
+	<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
